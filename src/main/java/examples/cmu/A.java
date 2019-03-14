@@ -90,7 +90,7 @@ public class A implements Serializable {
 		float f = 9.0f;
 		System.out.println(ff);
 		float ff;
-		System.out.println((ff = 7 / 5) * 0.9);
+		System.out.println((ff = 7 / 5 / 4 / 9) * 0.9);
 		f = f + 5 / 6;
 		double d = f;
 	}
