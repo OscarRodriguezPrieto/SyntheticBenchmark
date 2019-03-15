@@ -5,5 +5,5 @@ import examples.cmu.SubA;
 
 
 public class B extends A {
-	public int a = SubA.c;
+	public int a = SubA.c + 2;
 }
