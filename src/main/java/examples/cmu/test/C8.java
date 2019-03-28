@@ -28,4 +28,30 @@ public class C8 {
 			}
 		}
 	}
+
+	public void CprocessFile(String inPath, String outPath) throws IOException {
+		BufferedReader br = null;
+		BufferedWriter bw = null;
+		try {
+			br = new BufferedReader(new FileReader(inPath));
+			bw = new BufferedWriter(new FileWriter(outPath));
+			// Process the input and produce the output
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException x) {
+					// Handle error
+				} finally {
+					if (bw != null) {
+						try {
+							bw.close();
+						} catch (IOException x) {
+							// Handle error
+						}
+					}
+				}
+			}
+		}
+	}
 }

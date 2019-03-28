@@ -143,9 +143,10 @@ public class Z<X> implements Serializable, Cloneable {
 					int b;
 					for (int i = 0; i < 6; i++)
 						System.out.println(i + "" + (br = null));
-					new BufferedReader(null);
+					new FileReader("");
 				}
 			} else {
+				new FileReader("");
 				br2.close();
 			}
 		} finally {
