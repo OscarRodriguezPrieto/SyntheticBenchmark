@@ -8,6 +8,7 @@ import examples.cmu.SubA;
 import examples.cmu.SubA2;
 
 public class Constructores {
+
 	SubA a;
 	SubA2 a2;
 	double b;

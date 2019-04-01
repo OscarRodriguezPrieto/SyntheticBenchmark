@@ -58,10 +58,13 @@ public class Z<X> implements Serializable, Cloneable {
 		return super.clone();
 	}
 
-	public UnmodifiableArrayList getC() {
+	public UnmodifiableArrayList<String> getC() {
 		return null;
 	}
 
+	public UnmodifiableArrayList getRawC() {
+		return null;
+	}
 	public int[] getArray() {
 		if ("JOJ".contains("JK"))
 			return null;
