@@ -27,6 +27,13 @@ public class Z<X> implements Serializable, Cloneable {
 		return m.put("key", x);
 	}
 
+	MC getMC() {
+		return null;
+	}
+
+	OMC getOMC() {
+		return null;
+	}
 	static int staticMethod(String s) {
 		return A.staticMethod(s);
 	}
