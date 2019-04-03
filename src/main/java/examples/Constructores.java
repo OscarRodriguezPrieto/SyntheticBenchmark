@@ -34,7 +34,7 @@ public class Constructores {
 	}
 
 	public Constructores(int a) {
-		b = a / 2.0;
+		b *= a / 2.0;
 
 		new Interface() {
 
