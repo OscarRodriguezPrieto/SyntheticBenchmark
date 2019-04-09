@@ -13,8 +13,8 @@ public class Constructores {
 	SubA2 a2;
 	double b;
 
-	public Constructores() {
 
+	public Constructores() {
 	}
 
 	public Constructores(Object a) {

@@ -76,7 +76,7 @@ public class A implements Serializable {
 		}
 	}
 
-	public A clone() {
+	public Object clone() {
 		return null;
 	}
 
