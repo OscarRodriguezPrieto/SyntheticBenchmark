@@ -7,6 +7,7 @@ public class D {
 	public final C c = null;
 
 	public C c() {
+		new PT();
 		System.out.println(new C().b + 2);
 		C c = new C();
 		c.d = null;
