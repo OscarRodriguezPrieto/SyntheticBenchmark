@@ -27,13 +27,6 @@ public class Z<X> implements Serializable, Cloneable {
 		return m.put("key", x);
 	}
 
-	MC getMC() {
-		return null;
-	}
-
-	OMC getOMC() {
-		return null;
-	}
 	static int staticMethod(String s) {
 		return A.staticMethod(s);
 	}
@@ -65,6 +58,13 @@ public class Z<X> implements Serializable, Cloneable {
 		return super.clone();
 	}
 
+	MC getMC() {
+		return null;
+	}
+
+	OMC getOMC() {
+		return null;
+	}
 	public UnmodifiableArrayList<String> getC() {
 		return null;
 	}
@@ -72,6 +72,7 @@ public class Z<X> implements Serializable, Cloneable {
 	public UnmodifiableArrayList getRawC() {
 		return null;
 	}
+
 	public int[] getArray() {
 		if ("JOJ".contains("JK"))
 			return null;
@@ -153,10 +154,9 @@ public class Z<X> implements Serializable, Cloneable {
 					int b;
 					for (int i = 0; i < 6; i++)
 						System.out.println(i + "" + (br = null));
-					new FileReader("");
+					new BufferedReader(null);
 				}
 			} else {
-				new FileReader("");
 				br2.close();
 			}
 		} finally {
@@ -231,7 +231,7 @@ public class Z<X> implements Serializable, Cloneable {
 		}
 	}
 
-	public void blocksTwo() {
+	public void blocksTwo(O o) {
 		attrScope();
 		if ("NK".length() == 8) {
 			a = 3;

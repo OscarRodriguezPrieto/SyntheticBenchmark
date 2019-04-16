@@ -6,10 +6,10 @@ import java.io.Serializable;
 import examples.classesDependencies.ClassUse;
 
 public class A implements Serializable {
+
 	public static final int m = 3;
 	public File f;
 	int[] array;
-
 	public SubA s() {
 		System.out.println(s);
 		return s;
@@ -84,14 +84,14 @@ public class A implements Serializable {
 
 	}
 
-	float ff = 7 / 4 == 0 ? 7 / 2 : 0;
+	float ff = 7 / 2;
 
 	public void convertToFloat() {
 		float f = 9.0f;
 		System.out.println(ff);
 		float ff;
-		System.out.println((ff = 7 / 5 / 4 / 9) * 0.9);
-		f += 5 / 6;
+		System.out.println((ff = 7 / 5 / 8 / 2) * 0.9);
+		f = f + 5 / 6;
 		double d = f;
 	}
 

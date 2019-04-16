@@ -1,9 +1,13 @@
 package examples.cmu;
 
 public class E {
-	int a;
+	int d;
+
+	public E() {
+		d = 5;
+	}
 
 	public void a() {
-		a = 7;
+		d = 7;
 	}
 }
