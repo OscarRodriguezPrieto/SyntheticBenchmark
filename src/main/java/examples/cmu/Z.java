@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.Function;
+import java.util.List;
 
-import com.sun.javafx.UnmodifiableArrayList;
+import java.util.function.Function;
 
 import examples.cmu.otherPackage.B;
 import examples.util.EnumExample;
@@ -65,11 +65,11 @@ public class Z<X> implements Serializable, Cloneable {
 	OMC getOMC() {
 		return null;
 	}
-	public UnmodifiableArrayList<String> getC() {
+	public List<String> getC() {
 		return null;
 	}
 
-	public UnmodifiableArrayList getRawC() {
+	public List getRawC() {
 		return null;
 	}
 
